@@ -83,12 +83,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8082/mithuntechno/repository/wallmart-releases/</url>
+	      <url>http://localhost:8082/dell/repository/dell-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8082/mithuntechno/repository/wallmart-snapshot/</url>
+	      <url>http://localhost:8082/dell/repository/dell-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
@@ -99,7 +99,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.6.0</version>
-        <configuration>
+        <configuration>	
           <source>1.7</source>
           <target>1.7</target>
         </configuration>
@@ -157,3 +157,4 @@
     </profile>
   </profiles>
 </project>
+			
