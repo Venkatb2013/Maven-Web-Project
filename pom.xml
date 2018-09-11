@@ -6,8 +6,8 @@
   <groupId>com.mt</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
-  <version>1.1</version>
-  <name>Maven Web Project 18th August</name>
+  <version>2.1</version>
+  <name>Maven Web Project 11th Sep</name>
   <description>Maven Web Project for Java Project</description>
 
  <organization>
@@ -83,12 +83,12 @@
 	    <repository>
 	      <id>NEXUS</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8082/dell/repository/dell-release/</url>
+	      <url>http://localhost:8082/dell/repository/amazon-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>NEXUS</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8082/dell/repository/dell-snapshot/</url>
+	      <url>http://localhost:8082/dell/repository/amazon-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
